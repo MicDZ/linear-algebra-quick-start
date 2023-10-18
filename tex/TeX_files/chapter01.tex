@@ -1,0 +1,79 @@
+\chapter{向量及向量的线性组合}
+
+\section{向量}
+高中我们都学过向量。我们用向量来表示一个有大小有方向的量。过去，我们用一个“数对”表示\textbf{向量}。
+$$
+\begin{aligned}
+	\vec{a}=&(x_1,y_1)\quad \vec b=(x_2,y_2)\\
+	|\vec a|&=\sqrt{x_1^2+y_1^2}\\
+	\vec a\cdot\vec b&=x_1x_2+y_1y_2\\
+	\cos\theta&=\frac{\vec a\cdot\vec b}{||\vec a||\ ||\vec b||}
+\end{aligned}
+$$
+与高中不同，现在我们通常用“列”来表示向量（也有行向量，为方便后文均采用列向量）。
+例如，在线性代数中，我们将二维的列向量理解为一个两行一列的“矩阵”（矩阵的概念在下节介绍）。向量的模的表示也有所区别，你需要习惯这种表示方法。
+$$
+\begin{aligned}
+	\vec a=&\begin{bmatrix}x_1\\y_1\end{bmatrix}\quad
+	\vec b=\begin{bmatrix}x_2\\y_2\end{bmatrix}\\
+	||\vec a||&=\sqrt{x_1^2+y_1^2}
+\end{aligned}
+$$
+
+\section{向量的线性组合}
+从这里开始算是正式进入了线性代数的学习。很明显，“线性”是线性代数研究的关键。我们首先介绍一下什么是“线性”。
+线性的最直观理解就是一条直线。
+$$
+y=kx+b
+$$
+
+
+我们引入线性组合的概念。设有两条直线：
+$$
+\begin{aligned}
+	y=&kx+b\dots\ (1)\\
+	y=&mx+n\dots(2)
+\end{aligned}
+$$
+我们将两条直线进行任意的“线性组合”，很容易发现，所得结果仍为一条线性直线。
+$$
+(1)\times c+(2)\times d
+$$
+$$
+\begin{aligned}
+	y&=c(kx+b)+d(mx+n)\\
+	&=(ck+dm)x+(cb+dn)
+\end{aligned}
+$$
+其实这种特性可以用“线性运算封闭性”高度概括。换言之，将直线方程乘一个数，或者将两条直线方程相加，所得结果仍为一条直线。这是理解后续“线性空间”的重要基础。
+
+如果将上述过程用我们刚才所学的向量表示，那么可以写成（暂时理解为一种记号，但其实有其几何含义）：
+$$
+\begin{aligned}
+	\vec u =\begin{bmatrix}k\\b\end{bmatrix}\quad \vec w=\begin{bmatrix}m\\n\end{bmatrix}\\
+	c\vec u+d\vec w=\begin{bmatrix}ck+dm\\cb+dn\end{bmatrix}
+\end{aligned}
+$$
+我们就将 $c\vec u+d\vec w$ 称为向量之间的\textbf{线性组合}。这里，我们也可以发现\textbf{二维}向量之间的线性组合所得结果仍然可以是一个\textbf{二维}向量。
+
+如果我们将情况拓展到三维。看下面一个例子：
+
+$$
+\vec u=\begin{bmatrix}1\\0\\0\end{bmatrix}
+\quad
+\vec v=\begin{bmatrix}0\\1\\0\end{bmatrix}
+\quad
+\vec w=\begin{bmatrix}0\\0\\1\end{bmatrix}
+$$
+通过这三个向量的线性组合，我们可以得到整个三维空间内的所有向量。因为对于任意一个三维向量我们都可以拆分到这三个分量上。
+$$
+\begin{bmatrix}a\\b\\c\end{bmatrix}=a\vec u+b\vec v+c\vec w
+$$
+但是，是否任意给定三个向量都可实现通过三个向量之间的线性组合得到三维空间内的所有向量呢？请你先思考一下，这将会在后面介绍。
+$$
+\vec u=\begin{bmatrix}1\\0\\0\end{bmatrix}
+\quad
+\vec v=\begin{bmatrix}0\\1\\0\end{bmatrix}
+\quad
+\vec w=\begin{bmatrix}0\\2\\0\end{bmatrix}
+$$

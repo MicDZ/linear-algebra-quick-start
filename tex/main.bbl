@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{MIT}
+麻省理工学院 - mit - 线性代数 - bilibili.
+\newblock \url{https://www.bilibili.com/video/BV16Z4y1U7oU/}.
+
+\bibitem{application}
+David~C. Lay.
+\newblock {\em Linear Algebra and Its Applications}.
+\newblock 2003.
+
+\bibitem{strang09}
+Gilbert Strang.
+\newblock {\em Introduction to Linear Algebra}.
+\newblock Wellesley, MA, 2009.
+
+\end{thebibliography}

@@ -1,0 +1,22 @@
+\contentsline {chapter}{前言}{iii}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}向量及向量的线性组合}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}向量}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}向量的线性组合}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}矩阵}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}矩阵的基本概念}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}线性独立与线性相关}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}向量空间}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}零空间}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}转置后的空间}{9}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}正交性}{10}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}行列式}{10}{section.2.4}%
+\contentsline {chapter}{\numberline {3}线性变换}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}平移}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}旋转}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}投影}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}投影到一条直线上}{14}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}投影到子空间中}{15}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}线性代数的应用}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}线性回归}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}坐标变换}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}概率论}{18}{section.4.3}%

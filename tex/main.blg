@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: ./TeX_files/preface.aux
+A level-1 auxiliary file: ./TeX_files/chapter01.aux
+A level-1 auxiliary file: ./TeX_files/chapter02.aux
+A level-1 auxiliary file: ./TeX_files/chapter03.aux
+A level-1 auxiliary file: ./TeX_files/chapter04.aux
+A level-1 auxiliary file: ./TeX_files/reference.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--to sort, need author or key in MIT
+Warning--empty publisher in application
+Warning--empty publisher in strang09
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4381 characters,
+and the built_in function-call counts, 615 in all, are:
+= -- 52
+> -- 15
+< -- 0
++ -- 7
+- -- 4
+* -- 28
+:= -- 101
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 31
+empty$ -- 68
+format.name$ -- 4
+if$ -- 132
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 15
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 3
+while$ -- 4
+width$ -- 4
+write$ -- 28
+(There were 3 warnings)
